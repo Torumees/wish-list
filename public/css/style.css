@@ -1,0 +1,123 @@
+:root {
+    --orange-color: #dd8b07;
+    --light-color:  #fadfc0;
+  
+  }
+  
+  html {
+      background-color: #E4E9FD;
+      background-image: -webkit-linear-gradient(65deg, var(--orange-color) 50%, var(--light-color) 50%);
+      min-height: 1000px;
+      font-family: 'helvetica neue';
+    }
+    
+    h1 {
+      color: #fff;
+      padding: 10px;
+    }
+    
+    .box {
+      max-width: 700px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    }
+    
+    #heading {
+      background-color: var(--blue-color);
+      text-align: center;
+    }
+    
+    .item {
+      margin-left: -10rem;
+      margin-top: -45px;
+      margin-bottom: -30px;
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #F1F1F1;
+    }
+    
+    .item:last-child {
+      border-bottom: 0;
+    }
+    
+    input:checked+p {
+      text-decoration: line-through;
+      text-decoration-color: var(--blue-color);
+    }
+    
+    input[type="checkbox"] {
+      margin: 20px;
+    }
+    
+    .inputUnique {
+      margin: 0;
+      margin-left: 5rem;
+      padding: 20px;
+      font-size: 20px;
+      color: #00204a;
+    }
+    .inputUnique2 {
+      font-size: 20px;
+      margin-left: 0.5rem;
+    }
+    
+    a {
+      margin-left: 10rem;
+    }
+    form {
+      padding-top: 25px;
+      text-align: center;
+      margin-left: 20px;
+    }
+    button {
+      min-height: 50px;
+      width: 150px;
+      border-radius: 25px;
+      border-color: transparent;
+      background-color: var(--orange-color);
+      color: #fff;
+      font-size: 30px;
+      padding-bottom: 6px;
+      border-width: 0;
+      transition-duration: 0.4s;
+    }
+
+    button:hover {
+      background-color: #00204a;
+    }
+
+    .btn {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    
+    input {
+      margin-top: -10px;
+      text-align: center;
+      height: 60px;
+      top: 10px;
+      border: none;
+      background: transparent;
+      font-size: 20px;
+      font-weight: 200;
+      width: 313px;
+    }
+    
+    input:focus {
+      outline: none;
+      box-shadow: inset 0 -3px 0 0 var(--blue-color);
+    }
+    
+    ::placeholder {
+      color: grey;
+      opacity: 1;
+    }
+    
+    footer {
+      color: white;
+      color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
